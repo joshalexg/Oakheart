@@ -21,14 +21,14 @@ header {
     background-size: cover;
 }
 
-.logo {
+/*.logo {
     position: fixed;
     float: left;
     margin: 16px 32px;
     color: #ffffff;
     font-weight: bold;
     font-size: 24px;
-}
+}*/
 
 nav {
     position: fixed;
@@ -82,11 +82,11 @@ nav ul li a {
         background-size: cover;
     }
 
-    .logo {
+    /*.logo {
         position: fixed;
         top: 0;
         margin-top: 16px;
-    }
+    }*/
 
     nav ul {
         max-height: 0px;
@@ -102,12 +102,19 @@ nav ul li a {
     }
 
     nav ul li {
+        display: inline;
+        margin: 15px 10;px
         box-sizing: border-box;
         width: 100%;
         padding: 24px 0;
         text-align: center;
+        align-items: center;
     }
 
+    nav ul li a {
+      font-size: 25px;
+    }
+    
     .menu-icon {
         display: block;
     }
@@ -245,7 +252,7 @@ nav ul li a {
 }
 
 .c3-box-3 {
-    margin: 10px; 
+    margin: 10px;
 }
 
 .container-3 img {
@@ -272,17 +279,17 @@ nav ul li a {
     }
 
     .c3-box-1 {
-        
+
     }
-    
+
     .c3-box-2 {
-     
+
     }
-    
+
     .c3-box-3 {
-       
+
     }
-    
+
     .container-3 img {
         width: 100%;
     }
@@ -301,15 +308,15 @@ nav ul li a {
     }
 
     .c3-box-1 {
-    
+
     }
-    
+
     .c3-box-2 {
-     
+
     }
-    
+
     .c3-box-3 {
-       
+
     }
 
     .container-3 img {
@@ -370,11 +377,11 @@ nav ul li a {
 }
 
 .c4-box-3 {
-    margin: 10px; 
+    margin: 10px;
 }
 
 .c4-box-4 {
-    margin: 10px; 
+    margin: 10px;
 }
 
 .container-4 img {
@@ -399,21 +406,21 @@ nav ul li a {
     }
 
     .c4-box-1 {
-        
+
     }
-    
+
     .c4-box-2 {
-     
+
     }
-    
+
     .c4-box-3 {
-       
+
     }
 
     .c4-box-4 {
-       
+
     }
-    
+
     .container-4 img {
         width: 100%;
     }
@@ -432,19 +439,19 @@ nav ul li a {
     }
 
     .c4-box-1 {
-    
+
     }
-    
+
     .c4-box-2 {
-     
+
     }
-    
+
     .c4-box-3 {
-       
+
     }
 
     .c4-box-4 {
-       
+
     }
 
     .container-4
@@ -533,7 +540,7 @@ nav ul li a {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-    }  
+    }
 
     .c2-box-1 {
         margin: 20px auto;
@@ -580,5 +587,3 @@ nav ul li a {
         padding-right: 30px;
     } */
 }
-
-
